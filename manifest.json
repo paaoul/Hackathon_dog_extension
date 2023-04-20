@@ -11,7 +11,9 @@
         "pictures/dog.jpeg",
         "pictures/dog-hop2.png",
         "pictures/dog-midwalk.png",
-        "pictures/bark.mp3"
+        "pictures/bark.mp3",
+        "pictures/bark1.mp3",
+        "pictures/bark2.mp3"
       ],
       "matches": ["<all_urls>"]
     }
