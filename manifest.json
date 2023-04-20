@@ -6,7 +6,15 @@
     "service_worker": "main.js"
   },
   "web_accessible_resources": [
-    { "resources": ["pictures/dog.jpeg"], "matches": ["<all_urls>"] }
+    {
+      "resources": [
+        "pictures/dog.jpeg",
+        "pictures/dog-hop2.png",
+        "pictures/dog-midwalk.png",
+        "pictures/bark.mp3"
+      ],
+      "matches": ["<all_urls>"]
+    }
   ],
   "permissions": ["scripting", "activeTab", "offscreen"],
   "host_permissions": ["<all_urls>"],
