@@ -1,7 +1,7 @@
 {
-  "name": "Dog Extension",
+  "name": "Browser Buddy",
   "version": "1.0",
-  "description": "This does something",
+  "description": "Runs and barks when you're lonely!",
   "background": {
     "service_worker": "main.js"
   },
