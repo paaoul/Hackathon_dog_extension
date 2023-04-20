@@ -2,12 +2,13 @@
   "name": "Dog Extension",
   "version": "1.0",
   "description": "This does something",
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["main.js"],
-      "css": ["style.css"]
-    }
+  "background": {
+    "service_worker": "main.js"
+  },
+  "web_accessible_resources": [
+    { "resources": ["pictures/dog.jpeg"], "matches": ["<all_urls>"] }
   ],
+  "permissions": ["scripting", "activeTab", "offscreen"],
+  "host_permissions": ["<all_urls>"],
   "manifest_version": 3
 }
